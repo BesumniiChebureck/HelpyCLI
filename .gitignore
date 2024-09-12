@@ -1,0 +1,13 @@
+# Игнорировать папки Visual Studio и Rider
+.vs/
+.idea/
+
+# Игнорировать папку с NuGet пакетами
+packages/
+
+# Игнорировать временные файлы сборки и NuGet пакеты в новых .NET Core/.NET проектах
+HelpyAiCli/obj/
+HelpyAiCli/bin/
+
+# Игнорировать локальные NuGet пакеты, если они создаются
+*.nupkg
